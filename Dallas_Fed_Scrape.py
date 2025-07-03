@@ -75,7 +75,7 @@ for i in range(len(data_slider)):
 
 sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
-layout = dict(title ='Dallas Fed Mobility', geo=dict(scope='usa',
+layout = dict(title ='Dallas Federal Reserve COVID Mobility', geo=dict(scope='usa',
                        projection={'type': 'albers usa'}),
               sliders=sliders)
 
